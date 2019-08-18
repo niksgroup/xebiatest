@@ -10,7 +10,9 @@ Once you deploy the project to any server you can access the service endpoint
 Customers are categorized into 3 groups that need to be passed from input : 
 
 CUST - Normal customer
+
 EMP - Employee 
+
 AFFL - Affiliate
 
 Need to pass : customerRelationAgeInYrs 
@@ -27,7 +29,7 @@ Header :
 Content-Type : application/json
 
 
-<Sample Input> : 
+Sample Input  : 
 
 {
 	"customer" : {
